@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../assets/logo.jpg';
 
-console.log(Logo)
 export default function () {
 
     return (

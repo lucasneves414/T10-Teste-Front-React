@@ -3,10 +3,12 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Itim', cursive;
 }
 
+/* ################ MENU ################ */
+
 .menu-div{
-    font-family: 'Itim', cursive;
     padding: 1%;
     background: greenyellow;
     background-color: #f97270;
@@ -27,7 +29,7 @@ ul{
 
  .menu-div img{
     padding: 0;
-    margin: 0;
+    margin-left: 4%;
     max-width: 15%;
 }
 
@@ -45,7 +47,7 @@ ul{
 }
 
 .menu-div ul{
-    margin: 0;
+    margin: 0 4% 0 0;
     padding-right: 5%;
 }
 
@@ -53,4 +55,58 @@ ul{
     display: inline;
     font-size: 25px;
     margin: 2%;
+}
+
+
+
+/* ################ CONTENT ################ */
+.content{
+    margin: 4% 8% 7% 8%;
+}
+
+.content h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.content .content-tittle-subtittle {
+    width: 50%;
+    display: inline-block;
+}
+
+.content .content-tittle-subtittle h1{
+    font-size: 60px;
+    width: 100%;
+}
+
+.content .content-tittle-subtittle h3{
+    font-size: 30px;
+    width: 100%;
+    color: #95a1a7;
+    margin-bottom: 1%;
+}
+
+.content .content-image {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.content .content-buttom-content {
+    width: 10%;
+    display: inline;
+    margin: 0;
+}
+
+.content .content-buttom-content button{
+    background-color: #f97270;
+    width: 10%;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 1%;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
 }

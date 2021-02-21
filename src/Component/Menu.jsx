@@ -10,22 +10,22 @@ export default function () {
             <nav>
                 <ul>
                     <li>
-                        <label>Home</label>
+                        <label><a href="#home">Home</a></label>
                     </li>
                     <li>
-                        <label>Sobre nós</label>
-                    </li>
-                    <li>
-
-                        <label>Serviços</label>
+                        <label> <a href="#about">Sobre nós</a></label>
                     </li>
                     <li>
 
-                        <label>Portifolio</label>
+                        <label><a href="#services">Serviços</a></label>
                     </li>
                     <li>
 
-                        <label>Contato</label>
+                        <label><a href="#portifolio">Portifolio</a></label>
+                    </li>
+                    <li>
+
+                        <label><a href="#contact">Contato</a></label>
                     </li>
                 </ul>
             </nav>

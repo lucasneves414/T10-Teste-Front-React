@@ -12,7 +12,7 @@ export default
             "title": "Inovação, Design e ",
             "titleexperiencia": "Experiência",
             "subtitle": "Sempre a frente em soluções digitais",
-            "img": {ImgHome},
+            "img": { ImgHome },
             "botao": "Saiba mais"
         },
 
@@ -22,7 +22,7 @@ export default
             "title2": "Qual o seu próximo projeto?",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
             "botao": "Download CV",
-            "img": {Sobre}
+            "img": { Sobre }
         },
 
         "Servicos":
@@ -37,7 +37,7 @@ export default
             },
 
             "content": {
-                "img": {Art},
+                "img": { Art },
                 "title": "Design",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "botao": "Saiba mais"
@@ -49,10 +49,10 @@ export default
             "title": "PORTFOLIO",
             "subtitle": "Meus trabalhos",
             "images": {
-                "image1": {PortImg1},
-                "image2": {PortImg2},
-                "image3": {PortImg3},
-                "image4": {PortImg4}
+                "image1": { PortImg1 },
+                "image2": { PortImg2 },
+                "image3": { PortImg3 },
+                "image4": { PortImg4 }
             }
         },
 

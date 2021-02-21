@@ -1,6 +1,10 @@
 import ImgHome from '../assets/trabalho-home.jpg';
 import Sobre from '../assets/sobre.jpg';
 import Art from '../assets/servicos-arte.jpg';
+import PortImg1 from "../assets/portfolio-1.jpg";
+import PortImg2 from "../assets/portfolio-2.jpg";
+import PortImg3 from "../assets/portfolio-3.jpg";
+import PortImg4 from "../assets/portfolio-4.jpg";
 
 export default
     {
@@ -44,10 +48,10 @@ export default
             "tittle": "PORTFOLIO",
             "subtittle": "Meus trabalhos",
             "images": {
-                "image1": "",
-                "image2": "",
-                "image3": "",
-                "image4": ""
+                "image1": {PortImg1},
+                "image2": {PortImg2},
+                "image3": {PortImg3},
+                "image4": {PortImg4}
             }
         },
 

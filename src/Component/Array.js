@@ -1,4 +1,6 @@
 import ImgHome from '../assets/trabalho-home.jpg';
+import Sobre from '../assets/sobre.jpg';
+import Art from '../assets/servicos-arte.jpg';
 
 export default
     {
@@ -13,8 +15,9 @@ export default
         {
             "tittle": "SOBRE NÓS",
             "tittle2": "Qual o seu próximo projeto?",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "botao": "Download CV"
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure",
+            "botao": "Download CV",
+            "img": {Sobre}
         },
 
         "Servicos":
@@ -29,9 +32,9 @@ export default
             },
 
             "content": {
-                "img": "",
+                "img": {Art},
                 "tittle": "Design",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "botao": "Saiba mais"
             },
         },

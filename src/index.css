@@ -389,6 +389,28 @@ ul{
     z-index: -1;
 }
 
+@media only screen and (min-width: 1500px){
+    .grid-servicos {
+        width: 10%;
+        height: 250px;
+        background-size: 17px 17px;
+        margin-left: 199px;
+    }
+
+    .grid-sobre {
+        width: 10%;
+        height: 219px;
+        right: 47.7%;
+        background-size: 17px 17px;
+    }
+
+    .grid-contato {
+        width: 7%;
+        background-size: 18px 18px;
+        margin-left: -215px;
+    }
+}
+
 @media only screen and (max-width: 1024px){
 
     .content .content-buttom-content-home button {
